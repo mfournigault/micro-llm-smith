@@ -1,0 +1,46 @@
+# Ignore the image files that are downloaded from the web
+*.fits.gz
+*.fits.fz
+*.fit
+*.fits
+*.seq
+
+# Ignore the big data files that are stored on hugging face
+*.ldac
+*.hdf5
+*.parquet.gz
+
+
+# Fichiers de log
+*.log
+
+# Répertoires de build
+/build/
+/dist/
+
+# Fichiers de configuration d'IDE
+/.vscode/
+
+# Fichiers de système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Fichiers temporaires
+*.tmp
+*.swp
+*.bak
+*.old
+docs/project/~$$AIQ_algorithm_data_flow.~vsdx
+
+# Ignore temp results of the som modeling
+# /src/modeling/Plots/
+# /src/modeling/Results/
+/data/for_modeling/Results/params_som_iqa.json
+/data/for_modeling/training_dataset/
+/data/for_modeling/validation_dataset/
+/data/for_modeling/test_dataset/
+/src/modeling/tfdbg2_logdir/
